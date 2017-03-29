@@ -1,6 +1,6 @@
 ---
 title: The Indicator Aggregate
-date: 2017-03-13 18:14:46
+date: 2017-03-13
 categories:
   - Learning DDA
 tags:
