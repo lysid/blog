@@ -261,4 +261,4 @@ You can [view the complete list of scenarios](https://github.com/lysid/scales/bl
 
 At the time of this writing, running the tests reports 34 scenarios executed (139 steps). I don't have the code coverage measure but it should be pretty good. In comparison to the implementation of the *Indicator* *Aggregate* from the previous article, its updated code has much improved. With a few dozens lines of scenarios and a similar amout of glue code, it's a satisfying performance in writing meaningful tests.
 
-In the next article, we will design the *Scale* *Aggreggate*.
+In the [next article](/2017/04/02/The-Scale-Aggregate/), we will design the *Scale* *Aggreggate*.

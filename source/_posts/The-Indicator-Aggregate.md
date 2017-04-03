@@ -258,4 +258,3 @@ We can see that there is not any major consistency issue, we only reference othe
 ## Next step
 
 In the next article, we will continue this exercise with the *Scales* *Aggregate*.
-

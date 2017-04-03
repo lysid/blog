@@ -20,30 +20,31 @@ This is a term of my own, although its purpose is not to create yet-another-crap
 
 ## What is the purpose of this series?
 
-> Create the [Scales][] application from scratch, while learning and applying some of the [DDD principles][] alongside with the [CQRS principle][]/[Event Sourcing][] architectural concepts. We will also try to go beyond the usual server-side considerations and think about how we could apply these concepts to the client side of our application. All this work will be released as open-sourced software under the (yet-to-be-determined) licence in a [GitHub project repository][].
+> Create the [Scales][] application from scratch, while learning and applying some of the [DDD principles][] alongside with the [CQRS principle][]/[Event Sourcing][] architectural concepts. We will also try to go beyond the usual server-side considerations and think about how we could apply these concepts to the client side of our application. All this work will be released as open-sourced software under the [AGPL][] licence in a [GitHub project repository][].
 > 
 > <strong>In the long run, the ultimate goal is to provide a pragmatic and pleasant way to learn these powerful concepts and show a way to apply them to your own projects.</strong>
 <!-- more -->
 
-The starting point of this series is the [Scales][] project. I was asked to create this product for a not-for-profit foundation which couldn't afford to have a dedicated IT team managing commercial software from big companies. As I am moving from my [Flex][] expertise towards the trendy HTML/JavaScript technologies, this is a perfect candidate to learn these and showcase my fresh new skills. This is also one of the reason this project is released as open-sourced software under the (yet-to-be-determined) licence.
+The starting point of this series is the [Scales][] project. I was asked to create this product for a not-for-profit foundation which couldn't afford to have a dedicated IT team managing commercial software from big companies. As I am moving from my [Flex][] expertise towards the trendy HTML/JavaScript technologies, this is a perfect candidate to learn these and showcase my fresh new skills. This is also one of the reason this project is released as open-sourced software.
 
-As [I have worked in the healthcare domain][LinkedInProfile] for several years now, I came to realize that this is an always-moving domain from a pure business point of view. Although it may look like a very well-established science, new practices emerge often, as well as new regulations and financial directives. At the same time, softwares have a very long lifespan (often more than a dozen years), leading to unstable data structures and frequently changing business rules.
+As I have worked in the healthcare domain for several years now, I came to realize that this is an always-moving domain from a pure business point of view. Although it may look like a very well-established science, new practices emerge often, as well as new regulations and financial directives. At the same time, softwares have a very long lifespan (often more than a dozen years), leading to unstable data structures and frequently changing business rules.
 
-When starting to think about the [Scales][] project, I recalled [a very interesting QCon keynote][infoq video] from [(author)][infoq video author] about the benefits of [Event Sourcing][], based on his experience in the finance field. I started to harvest more info about [Event Sourcing][], then moving to the intimately related [CQRS principle][], itself being a good architectural approach to create software according to the [DDD principles][]...
+When starting to think about the [Scales][] project, I recalled [a very interesting QCon keynote][infoq video] from [Martin J. Thompson][martinjthompson] about the benefits of [Event Sourcing][], based on his experience in the finance field. I started to harvest more info about [Event Sourcing][], then moving to the intimately related [CQRS principle][], itself being a good architectural approach to create software according to the [DDD principles][]...
 
 More often than not, people tend to use these three paradigms altogether, because they seem to provide a cohesive whole centered on the business domain first. This is a huge amount of new concepts and skills to learn, and it is quite difficult to decide where to start from...
 
 **This is the main purpose of this series: learn and apply at the same time. We will be asking questions and discussing possible answers according to the current literature, then go implement the actual product based on our decisions.**
 
-[Scales]:						/products/scales
+[Scales]:						          /products/scales
+[AGPL]:                     https://www.gnu.org/licenses/agpl-3.0.html
 [GitHub project repository]:	https://github.com/lysid/scales
-[flex]:							https://flex.apache.org
-[LinkedInProfile]:				https://www.linkedin.com/in/fredericmonjo
-[infoq video]:					https://www.infoq.com/presentations/Event-Sourced-Architectures-for-High-Availability
-[infoq video author]:			https://www.linkedin.com/in/martinjthompson
-[event sourcing]:				http://docs.geteventstore.com/introduction/event-sourcing-basics/
-[CQRS principle]:				http://udidahan.com/2009/12/09/clarified-cqrs/
-[DDD principles]:				https://en.wikipedia.org/wiki/Domain-driven_design
+[flex]:							          https://flex.apache.org
+[LinkedInProfile]:			   	  https://www.linkedin.com/in/fredericmonjo
+[infoq video]:				      	https://www.infoq.com/presentations/Event-Sourced-Architectures-for-High-Availability
+[martinjthompson]:	          https://www.linkedin.com/in/martinjthompson
+[event sourcing]:				      http://docs.geteventstore.com/introduction/event-sourcing-basics/
+[CQRS principle]:				      http://udidahan.com/2009/12/09/clarified-cqrs/
+[DDD principles]:				      https://en.wikipedia.org/wiki/Domain-driven_design
 
 
 
